@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+     <div class="calculatorBody">
+        <table>
+            <input type="text" id="Display">
+            <button value="C" onclick="deleteAll('C')">C</button>
+            <button value="(" onclick="calculator('(' )">(</button>
+            <button value=")" onclick="calculator(')')">)</button>    
+            <!-- <button value="" onclick="calculator()">Del</button>     -->
+            <button value="7" onclick="calculator('7')">7</button>
+            <button value="8" onclick="calculator('8')">8</button>
+            <button value="9" onclick="calculator('9')">9</button>
+            <button value="+" class="pluse" onclick="calculator('+')">+</button>
+            <button value="4" onclick="calculator('4')">4</button>
+            <button value="5" onclick="calculator('5')">5</button>
+            <button value="6" onclick="calculator('6')">6</button>
+            <button value="-" class="subtr" onclick="calculator('-')">-</button>
+            <button value="1" onclick="calculator('1')">1</button>
+            <button value="2" onclick="calculator('2')">2</button>
+            <button value="3" onclick="calculator('3')">3</button>
+            <button value="*"  class="multi" onclick="calculator('*')">*</button>
+            <button value="0" onclick="calculator('0')">0</button>
+            <button value="."  class="dot" onclick="calculator('.')">.</button>
+            <button value="/"   class="divi" onclick="calculator('/')">/</button>
+            <button value="=" class="equal"  onclick="reasult('=')">=</button>
+        </table>
+     </div>
+</body>
+</html>
+
+
+
+
